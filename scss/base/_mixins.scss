@@ -1,0 +1,7 @@
+@mixin display-inline-block-fix {
+ font-size: 0; 
+}
+>*{
+  display: inline-block;
+  font-size: $font-size;
+}
