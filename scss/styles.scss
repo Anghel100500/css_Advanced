@@ -1,8 +1,23 @@
-@import"base/reset"
+//facem import din base
+@import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import "../node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import "base/colors";
+@import "base/variables";
+@import "base/reset";
+@import "base/typography";
+@import "base/mixins";
+//apoi din layout
+@import "layout/grid";
+@import "layout/section";
+//apoi din vendor
+//apoi din components
+@import "components/background-box";
+@import "components/blocks";
+@import "components/flex-boxes";
+@import "components/fonts";
+@import "components/responisve-box";
+@import "components/filters.scss";
+@import "components/gradients.scss";
+//si restul
 
-@import"base/variables"
-@import"base/colors"
 
-body {
-  background-color: green;
-}
