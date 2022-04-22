@@ -7,19 +7,20 @@ const sourcemaps = require('gulp-sourcemaps');
 //compile scss into css
 function style() {
     return gulp.src('./scss/**/*.scss')
-    .pipe(sourcemaps.init())
-    .pipe(sass().on('error',sass.logError))
-    .pipe(autoprefixer())
-    .pipe(pxtorem())
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./css'))
-    .pipe(browserSync.stream());
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+        .pipe(autoprefixer())
+        .pipe(pxtorem())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('./css'))
+        .pipe(browserSync.stream());
 }
+
 function watch() {
     browserSync.init({
         server: {
-           baseDir: "./",
-           index: "./index.html"
+            baseDir: "./",
+            index: "./index.html"
         }
     });
     gulp.watch('./scss/**/*.scss', style)
