@@ -1,0 +1,45 @@
+.filter-box {
+width: 300px;
+margin-top: 5px;
+}
+
+.filter-box--blur {
+filter: blur(8px);
+}
+
+.filter-box--brightness {
+filter: brightness(50%);
+}
+                           
+.filter-box--contrast {
+filter:contrast(55%);
+}
+                              
+.filter-box--drop-shadow {
+filter: drop-shadow(30px 10px 4px #4444dd);
+}
+                                
+.filter-box--grayscale {
+filter: grayscale(0.2);
+}
+                                
+.filter-box--hue-rotate{
+filter: hue-rotate(1.75);
+}
+                                
+.filter-box--invert {
+filter:invert(70%);
+}
+                                
+.filter-box--opacity {
+filter: opacity(33%);
+}
+                                
+.filter-box--saturate {
+filter: saturate(4);
+}
+                              
+.filter-box--sepia {
+filter: sepia(3);
+}
+           

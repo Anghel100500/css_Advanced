@@ -1,3 +1,167 @@
+
 .background-box {
-  size: 16px;
+    display:inline-flex;
+    width: 300px;
+    height: 100px;
+    margin: 10px 10px;
 }
+
+.background-box--1 {
+    background-color: #f00;
+    background-image: url("http://unsplash.it/100/200");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.background-box--2 {
+    background-color: #fdb515;
+    background-image: url("/images/10.jpg");
+    border-image-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.background-box--3 {
+    background-color: #a6db44;
+    background-image: url("http://unsplash.it/100/200");
+    border-image-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.background-box--4 {
+    background-color: rgb(57, 90, 67);
+    background-image: url("http://unsplash.it/100/200");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: contain;
+}
+
+.background-box--5 {
+    background-color: rgb(141, 43, 165);
+    background-image: url("http://unsplash.it/100/200");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+
+.background-box--6 {
+    background-color: #f00;
+    background-image: url("http://unsplash.it/100/200");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.background-box--7 {
+    background-color: rgba(255, 0, 0, 0.178);
+    background-image: url("/images/4.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+.background-box--8 {
+    background-color: rgb(60, 55, 80);
+    background-image: url("http://unsplash.it/100/200");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+
+.background-box--9 {
+    background-color: rgb(202, 185, 34);
+    background-image: url("/images/5.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+.background-box--10 {
+    background-color: rgb(22, 209, 131);
+    background-image: url("/images/6.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.background-box--11 {
+    background-color: rgb(60, 31, 165);
+    background-image: url("/images/7.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.background-box--12 {
+    background-color: #f00;
+    background-image: url("/images/8.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.background-box--13 {
+    background-color: rgb(41, 194, 173);
+    background-image: url("/images/9.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.background-box--14 {
+    background-color: rgba(0, 38, 255, 0.315);
+    background-image: url("http://unsplash.it/100/200");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.background-box--15 {
+    background-color: #f2f2f0;
+    background-image: url("/images/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.background-box--16 {
+    background-image: url("/images/9.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.background-box--17 {
+    background-color: #e43;
+    background-image: url("/images/2.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: contain;
+}
+
+.background-box--18 {
+    background-color: rgba(4, 0, 255, 0.459);
+    background-image: url("/images/3.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+
+.background-box--19 {
+    background-color: rgb(148, 85, 122);
+    background-image: url("/images/4.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+.background-box--20 {
+    background-color: rgb(51, 170, 57);
+    background-image: url("http://unsplash.it/100/200");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+

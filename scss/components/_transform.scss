@@ -1,0 +1,257 @@
+.transform-element {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.transform-action-area--1 {
+  background-color: aqua;
+}
+
+.transform-action-area--1:hover {
+  transform: translateX(120px);
+}
+
+.transform-action-area--2 {
+  background: beige;
+}
+
+.transform-action-area--2:hover {
+  transform: translate(-120px, 120px);
+}
+
+.transform-action-area--3 {
+  background: aqua;
+}
+
+.transform-action-area--3:hover {
+  transform: translateY(-120px);
+}
+
+.transform-action-area--4 {
+  background: chartreuse;
+}
+
+.transform-action-area--4:hover {
+  transform: scaleX(-0.5);
+}
+
+.transform-action-area--5 {
+  background: darkcyan;
+}
+
+.transform-action-area--5:hover {
+  transform: scaleY(1.5);
+}
+
+.transform-action-area--6 {
+  background: thistle;
+}
+
+.transform-action-area--6:hover {
+  transform: scale(1.5, 0.5);
+}
+
+.transform-action-area--7 {
+  background: yellowgreen;
+}
+
+.transform-action-area--7:hover {
+  transform: rotate(120deg);
+}
+
+.transform-action-area--8 {
+  background: indigo;
+}
+
+.transform-action-area--8:hover {
+  transform: skewX(20deg);
+}
+
+.transform-action-area--9 {
+  background: olive;
+}
+
+.transform-action-area--9:hover {
+  transform: skewY(-20deg);
+}
+
+.transform-action-area--10 {
+  background: azure;
+}
+
+.transform-action-area--10:hover {
+  transform: skew(-20deg, 20deg);
+}
+
+.transform-action-area--11 {
+  background: seagreen;
+}
+
+.transform-action-area--11:hover {
+  transform-origin: center center;
+  animation: rotate 1s linear infinite;
+}
+
+.transform-action-area--12 {
+  background-color: darkgrey;
+}
+
+.transform-action-area--12:hover {
+  transform-origin: top left;
+  animation: rotate 1s linear infinite;
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+}
+
+// @keyframes rotate {
+//   100% {
+//     transform: rotate(360deg)
+//   }
+// }
+
+.transform-action-area--13 {
+  background: fuchsia;
+}
+
+.transform-action-area--13:hover {
+  transform: matrix(1.2, 0, 0.5, 1.2, 50, 0);
+}
+
+.transform-action-area--14 {
+  background: goldenrod;
+}
+
+.transform-action-area--14:hover {
+  transform: rotateX(-45deg) rotateY(30deg);
+}
+
+.transform-action-area--15 {
+  background: hotpink;
+}
+
+.transform-action-area--15:hover {
+  transform: rotate(150deg);
+  animation: rotate 1s;
+
+}
+
+.transform-action-area--16 {
+  background: khaki;
+}
+
+.transform-action-area--16:hover {
+  transform: translateZ(-100px);
+}
+
+.transform-action-area--17:hover {
+  background: lawngreen;
+}
+
+.transform-action-area--18:hover {
+  background: chocolate;
+}
+
+.transform-action-area--19:hover {
+  background: violet;
+}
+
+.transform-action-area--20:hover {
+  background: green;
+}
+
+
+
+
+
+.cub:hover {
+  cursor: pointer;
+  transform-style: preserve-3d;
+  animation: rotate 10s infinite linear;
+
+  @keyframes rotate {
+    100% {
+      transform: rotatex(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+  }
+}
+
+.cub:before,
+.cub:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 10em;
+  height: 10em;
+
+}
+
+.cub:before {
+  transform: rotateX(90deg);
+}
+
+.cub:after {
+  transform: rotatey(90deg);
+}
+
+.side {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  border: 2px solid white;
+  opacity: .7;
+}
+
+.text_cub {
+  color: red;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  text-align: center;
+  
+  margin-top: 30%;
+}
+
+.cub-back {
+  transform: translateZ(-5em);
+  background: orange;
+}
+
+.cub-left {
+  transform: translateX(-5em) rotateY(90deg);
+  background: lightgreen;
+}
+
+.cub-right {
+  transform: translateX(5em) rotateY(90deg);
+  background: yellowgreen;
+}
+
+.cub-top {
+  transform: translateY(-5em) rotateX(90deg);
+  background: skyblue;
+}
+
+.cub-bottom {
+  transform: translateY(5em) rotateX(90deg);
+  background: steelblue;
+}
+
+.cub-front {
+  transform: translateZ(5em);
+  background: gold;
+}
+
+// @keyframes rotate {
+//   100% {
+//     transform: rotatex(360deg) rotateY(360deg) rotateZ(360deg);
+//   }
+// }
